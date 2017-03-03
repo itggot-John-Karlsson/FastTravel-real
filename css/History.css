@@ -21,7 +21,9 @@ header {
 	justify-content: space-between;
 	box-shadow: 0px 1px 15px 0px #1c2024;
 }
-
+.desktopnav{
+	display: none !important;
+}
 .sidenav{
 	width: 80vw;
 	height: 100vh;
@@ -162,16 +164,17 @@ h1 {
 .ruski{
 	justify-content: center;
 	width:  100vw;
-	height: 92vh;
+	height: 100px;
 
 }
 input{
 	margin-left: 80px;
-	margin-top: 200px;
+	margin-top: 50px;
 	width: 200px;
 	height: 25px;
-	border-radius: 15px;
-	border-color: ;
+	border: none;
+	box-shadow: 0px 3px 7px -3px #1c2024;
+
 }
 .MV{
 	margin-left: 80px;
@@ -180,7 +183,19 @@ input{
 	height: 300px;
 	justify-content: center;
 }
+.wearenumberone{
+	width: 100vw;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
 
+}
+.Hostig{
+	font-size: 16px;
+	margin-left: 80px;
+	margin-top: 20px;
+	font-weight: bold;
+}
 p{
 
 	display: flex;
@@ -194,6 +209,120 @@ a {
 	font-family: sans-serif;
 	font-size: 15px;
 	font-weight: none;
+	text-decoration: none;
+	color: black;
 }
 
+}
+
+/* computer */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+ body {
+ 	margin: 0px;
+ 	justify-content: center;
+
+ }
+
+ .content { 
+
+}
+.sidenav{
+	display: none;
+}
+
+.visible {
+	display: none;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	background-color: #3a78ad;
+	width: 100vw;
+	height: 12vh;
+	justify-content: space-between;
+	box-shadow: 0px 1px 7px 0px #1c2024;
+
+}
+.desktopnav{
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 50px;
+	background-color: #1e6097;
+}
+.Homecom, .mostpopularcom, .Historycom, .logoutcom {
+	color: white;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+input {
+	width: 25vw;
+	height: 50px;
+	border-style: none;
+	margin-left: 600px;
+	margin-top: 50px;
+	box-shadow: 0px 3px 7px -3px #1c2024;
+	font-size: 20px;
+
+}
+.nav {
+	margin-left: 5px;
+	margin-top: 20px;
+	width:50px;
+	height: 50px;
+	display: none;
+}
+
+.nav1{
+	display: none;
+}
+
+h1 {
+	display: flex;
+	flex-direction: row;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;	
+	margin-top: 25px;
+	margin-left: 750px;
+}
+
+.ruski{
+	display: flex;
+	flex-direction: column;
+	background-color
+	width: 100vw;
+	height: 20vh;
+	justify-content: center;
+}
+.wearenumberone{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 300px;
+	margin-left: 600px;
+}
+p{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 23px;
+	margin-top: 20px;
+}
+a:hover, a:active{
+	font-size: 30px;
+	transition: 0.2s;
+}
 }

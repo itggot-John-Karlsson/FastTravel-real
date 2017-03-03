@@ -12,20 +12,8 @@ body {
 	display: flex;
 	flex-direction: row;
 }
-header {
-	display: flex;
-	flex-direction: row;
-	background-color: #3a78ad;
-	width: 100vw;
-	height: 8vh;
-	justify-content: space-between;
-	box-shadow: 0px 1px 15px 0px #1c2024;
-}
 .desktopnav{
 	display: none !important;
-}
-.searcshadow{
-	display: none;
 }
 .sidenav{
 	width: 80vw;
@@ -141,6 +129,17 @@ h2{
 	opacity: 0.5;
 }
 
+header {
+	display: flex;
+	flex-direction: row;
+	background-color: #3a78ad;
+	width: 100vw;
+	height: 8vh;
+	justify-content: space-between;
+	box-shadow: 0px 1px 15px 0px #1c2024;
+
+
+}
 
 .nav1, .nav2 {
 	margin-left: 5px;
@@ -152,8 +151,9 @@ h1 {
 	font-family: sans-serif;
 	color: white;
 	font-weight: bold;
-	margin-right: 210px;
+	margin-right: 200px;
 	margin-top: 7.5px;
+
 
 }
 
@@ -166,48 +166,34 @@ h1 {
 
 .ruski{
 	justify-content: center;
-	width:  100vw;
-	height: 92vh;
+	width:  200px;
+	height: 100px;
+	margin-left: 120px;
 
 }
-input{
-	margin-left: 80px;
-	margin-top: 200px;
-	width: 200px;
-	height: 25px;
-	border: none;
-	box-shadow: 0px 3px 7px -3px #1c2024;
-
-}
-.MV{
-	margin-left: 80px;
-	margin-top: 50px;
-	width: 200px;
-	height: 300px;
-	justify-content: center;
-}
-
-p{
-
-	display: flex;
-	flex-direction: column-reverse;
-	
+.helpmeplz{
+	font-size: 18px;
 	font-family: sans-serif;
 	font-weight: bold;
-	text-decoration-color: white;
 }
-a {
-	font-family: sans-serif;
-	font-size: 15px;
-	font-weight: none;
+.runningoutofnames{
+	margin-top: 300px;
+	margin-left: 120px;
+	width: 115px;
+	height: 25px;
+	text-align: center;
+	box-shadow: 0px 3px 7px -3px #1c2024;
+}
+.hulloguys {
 	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
 	color: black;
+	font-size: 16px;
+}
 }
 
-}
-
-/* Computer */
-
+/* computer */
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
@@ -253,16 +239,18 @@ header {
 	margin-left: 100px;
 	margin-top: 5px;
 }
-input {
-	width: 25vw;
-	height: 50px;
-	border-style: none;
-	margin-left: 600px;
-	margin-top: 300px;
-	box-shadow: 0px 3px 7px -3px #1c2024;
-	font-size: 20px;
 
+h1 {
+	display: flex;
+	flex-direction: row;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;	
+	margin-top: 25px;
+	margin-left: 750px;
 }
+
+
 .nav {
 	margin-left: 5px;
 	margin-top: 20px;
@@ -275,37 +263,31 @@ input {
 	display: none;
 }
 
-h1 {
-	display: flex;
-	flex-direction: row;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bold;	
-	margin-top: 25px;
-	margin-left: 750px;
-}
-
-.MV{
-	width: 500px;
-	height: 250px;
-	margin-left: 600px;
-	margin-top: 25px;
-
-}
 
 .ruski{
 	display: flex;
 	flex-direction: column;
 	background-color
-	width: 100vw;
-	height: 50vh;
+	width: 500px;
+	height: 100px;
 	justify-content: center;
+	margin-left: 720px;
+	margin-top: 50px
 }
 
-p{
+
+.helpmeplz{
 	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 25px;
+}
+.runningoutofnames{
+	margin-top: 300px;
+	margin-left: 680px;
+	width: 250px;
+	height: 50px;
+	box-shadow: 0px 3px 7px -3px #1c2024;
+	text-align: center;
 }
 
 a {
@@ -313,9 +295,10 @@ a {
 	color: black;
 	font-family: sans-serif;
 	font-size: 23px;
+	margin-top: 20px;
 }
 a:hover, a:active{
 	font-size: 30px;
 	transition: 0.2s;
 }
-}
+}	
