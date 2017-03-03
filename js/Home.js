@@ -14,7 +14,7 @@ function hello() {
 	icon1.classList.toggle('visible');
 	icon2.classList.toggle('visible');
 	}
-	var darken = document.querySelector('.ruski');
+	var darken = document.querySelector('.content');
 	darken.classList.toggle('darken');
 }
 
@@ -22,7 +22,7 @@ function helloguys () {
 	var icon1 = document.querySelector('.nav1');
 	var icon2 = document.querySelector('.nav2');
 	var content = document.querySelector('.content');
-	var darken = document.querySelector('.ruski');
+	var darken = document.querySelector('.content');
 	if (darken.classList.contains('darken')) {
 		content.classList.toggle('sidenav_sit2');
 		content.classList.toggle('sidenav_sit3');

@@ -12,16 +12,6 @@ body {
 	display: flex;
 	flex-direction: row;
 }
-header {
-	display: flex;
-	flex-direction: row;
-	background-color: #3a78ad;
-	width: 100vw;
-	height: 8vh;
-	justify-content: space-between;
-	box-shadow: 0px 1px 15px 0px #1c2024;
-}
-
 .sidenav{
 	width: 80vw;
 	height: 100vh;
@@ -136,6 +126,17 @@ h2{
 	opacity: 0.5;
 }
 
+header {
+	display: flex;
+	flex-direction: row;
+	background-color: #3a78ad;
+	width: 100vw;
+	height: 8vh;
+	justify-content: space-between;
+	box-shadow: 0px 1px 15px 0px #1c2024;
+
+
+}
 
 .nav1, .nav2 {
 	margin-left: 5px;
@@ -147,8 +148,9 @@ h1 {
 	font-family: sans-serif;
 	color: white;
 	font-weight: bold;
-	margin-right: 210px;
+	margin-right: 100px;
 	margin-top: 7.5px;
+
 
 }
 
@@ -163,117 +165,6 @@ h1 {
 	justify-content: center;
 	width:  100vw;
 	height: 92vh;
-
-}
-input{
-	margin-left: 80px;
-	margin-top: 200px;
-	width: 200px;
-	height: 25px;
-	border-radius: 15px;
-
-}
-.MV{
-	margin-left: 80px;
-	margin-top: 50px;
-	width: 200px;
-	height: 300px;
-	justify-content: center;
-}
-
-p{
-
-	display: flex;
-	flex-direction: column-reverse;
-	
-	font-family: sans-serif;
-	font-weight: bold;
-	text-decoration-color: white;
-}
-a {
-	font-family: sans-serif;
-	font-size: 15px;
-	font-weight: none;
-}
-
-}
-
-/* Computer */
-
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-
- body {
- 	margin: 0px;
- 	justify-content: center;
-
- }
-
- .content { 
-
-}
-.sidenav{
-	display: none;
-}
-
-.visible {
-	display: none;
-}
-
-header {
-	display: flex;
-	flex-direction: row;
-	background-color: #3a78ad;
-	width: 100vw;
-	height: 12vh;
-	justify-content: space-between;
-	box-shadow: 0px 1px 7px 0px #1c2024;
-
-}
-input {
-	width: 25vw;
-	height: 50px;
-	margin-left: 600px;
-	margin-top: 300px;
-}
-.nav {
-	margin-left: 5px;
-	margin-top: 20px;
-	width:50px;
-	height: 50px;
-	display: none;
-}
-
-.nav1{
-	display: none;
-}
-
-h1 {
-	display: flex;
-	flex-direction: row;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bold;	
-	margin-top: 25px;
-	margin-right: 1350px;
-}
-
-.more{
-	width: 40px;
-	height: 40px;
-	margin: 5px;
-	margin-top: 25px;
-}
-
-.ruski{
-	display: flex;
-	flex-direction: column;
-	background-color
-	width: 100vw;
-	height: 50vh;
-
 
 }
 }
